@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+locale = 'zh-CN'
+title = 'BuGuLog'
+hasCJKLanguage = true
+theme = 'BuGuLogTheme'
+
+# 导航菜单
+  [menus]
+    [[menus.main]]
+      name = '首页'
+      pageRef = '/'
+      weight = 10
+
+    [[menus.main]]
+      name = '分类'
+      pageRef = '/categories'
+      weight = 20
+
+    [[menus.main]]
+      name = '标签'
+      pageRef = '/tags'
+      weight = 30
+
+    [[menus.main]]
+      name = '关于'
+      pageRef = '/about'
+      weight = 40
+
+    [[menus.main]]
+      name = '友链'
+      pageRef = '/friends'
+      weight = 50
+
+  [params]
+    disqusShortname = ""
+    googleAnalytics = ""   # 可选
+    footerText = 'BuGuLog · 海雾深处，字字为灯'
+    icp = '京ICP备XXXXXXXX号'          # 可选
+    [params.social]
+      github = 'https://github.com/你的用户名'
+      twitter = ''
+      email = '你的邮箱'
+
+  [markup]
+    [markup.tableOfContents]
+      startLevel = 2
+      endLevel = 3

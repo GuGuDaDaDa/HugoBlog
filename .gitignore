@@ -1,0 +1,19 @@
+# Hugo build output
+/public/
+
+# Hugo build lock
+/.hugo_build.lock
+
+# Hugo generated resources
+/resources/
+
+# Node modules (if using npm/postcss)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
