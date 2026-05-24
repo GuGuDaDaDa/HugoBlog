@@ -47,7 +47,7 @@ theme = 'BuGuLogTheme'
     weight = 50
 
   [languages.'zh-cn'.params]
-    googleAnalytics = ""
+    googleAnalytics = "G-7F750CT9XH "
     giscusRepo = "GuGuDaDaDa/HugoBlog"
     giscusRepoId = "R_kgDOSl7-ew"
     giscusCategory = "Announcements"
@@ -99,7 +99,7 @@ theme = 'BuGuLogTheme'
     weight = 50
 
   [languages.en.params]
-    googleAnalytics = ""
+    googleAnalytics = "G-7F750CT9XH "
     giscusRepo = "GuGuDaDaDa/HugoBlog"
     giscusRepoId = "R_kgDOSl7-ew"
     giscusCategory = "Announcements"
