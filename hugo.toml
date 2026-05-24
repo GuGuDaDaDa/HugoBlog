@@ -47,6 +47,11 @@ theme = 'BuGuLogTheme'
     weight = 50
 
   [languages.'zh-cn'.params]
+    googleAnalytics = ""
+    giscusRepo = "GuGuDaDaDa/HugoBlog"
+    giscusRepoId = "R_kgDOSl7-ew"
+    giscusCategory = "Announcements"
+    giscusCategoryId = "DIC_kwDOSl7-e84C9t4o"
     footerText = 'BuGuLog · 海雾深处，字字为灯'
     copyright = 'GuGuDaDa'       # © 年份 + 此处文字；留空则用 title
     themeName = 'BuGuTheme'        # footer 主题名；留空显示 "mytheme"
@@ -94,6 +99,11 @@ theme = 'BuGuLogTheme'
     weight = 50
 
   [languages.en.params]
+    googleAnalytics = ""
+    giscusRepo = "GuGuDaDaDa/HugoBlog"
+    giscusRepoId = "R_kgDOSl7-ew"
+    giscusCategory = "Announcements"
+    giscusCategoryId = "DIC_kwDOSl7-e84C9t4o"
     footerText = 'BuGuLog · A light in the sea of mist'
     copyright = 'GuGuDaDa'
     themeName = 'BuGuTheme'
