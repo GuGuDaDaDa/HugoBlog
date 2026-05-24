@@ -96,5 +96,7 @@ ibus-daemon -r -d -x
 ```
 
 {{< refers   title="参考">}}
-{{< refer desc="封面图" url="https://twitter.com/amayadori_uki/status/1286183090977570816" >}}
+{{< refer num="1" source="https://twitter.com/amayadori_uki/status/1286183090977570816" url="https://twitter.com/amayadori_uki/status/1286183090977570816" noref="true">}}
+封面图
+{{< /refer >}}
 {{< /refers >}}
