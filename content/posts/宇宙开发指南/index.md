@@ -40,5 +40,6 @@ draft = false
 
 ----------
 
-## 参考
-> [封面图](https://www.pixiv.net/artworks/69087112)
+{{< refers   title="参考">}}
+{{< refer desc="封面图" url="https://www.pixiv.net/artworks/69087112" >}}
+{{< /refers >}}

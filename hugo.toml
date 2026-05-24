@@ -37,9 +37,9 @@ theme = 'BuGuLogTheme'
     footerText = 'BuGuLog · 海雾深处，字字为灯'
     icp = '京ICP备XXXXXXXX号'          # 可选
     [params.social]
-      github = 'https://github.com/你的用户名'
+      github = 'https://github.com/GuGuDaDaDa'
       twitter = ''
-      email = '你的邮箱'
+      email = 'shiki.w@outlook.com'
 
   [markup]
     [markup.tableOfContents]

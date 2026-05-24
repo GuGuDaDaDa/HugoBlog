@@ -42,11 +42,10 @@ draft = false
 
 ![反转法向量](https://static.246266.xyz/i/2024/05/27/66544def69236.png#vwid=800&vhei=379)
 
-## 参考
 
-1. [Blender Tutorial: Different Ways to Fill Holes](https://www.youtube.com/watch?v=YliK6XkLheE)
-
-2. [面三角化](https://docs.blender.org/manual/zh-hans/4.0/modeling/meshes/editing/face/triangulate_faces.html)
-3. [翻转](https://docs.blender.org/manual/zh-hans/3.1/modeling/meshes/editing/mesh/normals.html)
-
-> [封面图](https://artsandculture.google.com/asset/komposition-mit-rot-blau-und-gelb/5QG2Fm_LGUWAHA?hl=zh-CN)
+{{< refers   title="参考">}}
+{{< refer desc="Blender Tutorial: Different Ways to Fill Holes" url="https://www.youtube.com/watch?v=YliK6XkLhe" >}}
+{{< refer desc="面三角化" url="https://docs.blender.org/manual/zh-hans/4.0/modeling/meshes/editing/face/triangulate_faces.html" >}}
+{{< refer desc="翻转" url="https://docs.blender.org/manual/zh-hans/3.1/modeling/meshes/editing/mesh/normals.html" >}}
+{{< refer desc="封面图" url="https://artsandculture.google.com/asset/komposition-mit-rot-blau-und-gelb/5QG2Fm_LGUWAHA?hl=zh-CN" >}}
+{{< /refers >}}

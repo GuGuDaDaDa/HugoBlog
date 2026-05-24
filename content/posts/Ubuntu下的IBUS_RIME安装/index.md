@@ -95,9 +95,6 @@ ibus重启命令
 ibus-daemon -r -d -x
 ```
 
-
-
-## 参考
-
-> [封面图](https://twitter.com/amayadori_uki/status/1286183090977570816)
-
+{{< refers   title="参考">}}
+{{< refer desc="封面图" url="https://twitter.com/amayadori_uki/status/1286183090977570816" >}}
+{{< /refers >}}
