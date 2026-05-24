@@ -4,44 +4,102 @@ title = 'BuGuLog'
 hasCJKLanguage = true
 theme = 'BuGuLogTheme'
 
-# 导航菜单
-  [menus]
-    [[menus.main]]
-      name = '首页'
-      pageRef = '/'
-      weight = 10
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
-    [[menus.main]]
-      name = '分类'
-      pageRef = '/categories'
-      weight = 20
+# ── Language: Chinese (default) ──
+[languages.'zh-cn']
+  locale = 'zh-CN'
+  title = 'BuGuLog'
+  hasCJKLanguage = true
+  weight = 10
 
-    [[menus.main]]
-      name = '标签'
-      pageRef = '/tags'
-      weight = 30
+  [[languages.'zh-cn'.menus.main]]
+    identifier = 'home'
+    name = '首页'
+    pageRef = '/'
+    weight = 10
 
-    [[menus.main]]
-      name = '关于'
-      pageRef = '/about'
-      weight = 40
+  [[languages.'zh-cn'.menus.main]]
+    identifier = 'categories'
+    name = '分类'
+    pageRef = '/categories'
+    weight = 20
 
-    [[menus.main]]
-      name = '友链'
-      pageRef = '/friends'
-      weight = 50
+  [[languages.'zh-cn'.menus.main]]
+    identifier = 'tags'
+    name = '标签'
+    pageRef = '/tags'
+    weight = 30
 
-  [params]
-    disqusShortname = ""
-    googleAnalytics = ""   # 可选
+  [[languages.'zh-cn'.menus.main]]
+    identifier = 'about'
+    name = '关于'
+    pageRef = '/about'
+    weight = 40
+
+  [[languages.'zh-cn'.menus.main]]
+    identifier = 'friends'
+    name = '友链'
+    pageRef = '/friends'
+    weight = 50
+
+  [languages.'zh-cn'.params]
     footerText = 'BuGuLog · 海雾深处，字字为灯'
-    icp = '京ICP备XXXXXXXX号'          # 可选
-    [params.social]
+    copyright = 'GuGuDaDa'       # © 年份 + 此处文字；留空则用 title
+    themeName = 'BuGuTheme'        # footer 主题名；留空显示 "mytheme"
+    themeURL  = 'https://github.com/GuGuDaDaDa/BuGuTheme'  # 主题链接；留空则不生成链接
+    icp = ''
+    [languages.'zh-cn'.params.social]
       github = 'https://github.com/GuGuDaDaDa'
       twitter = ''
       email = 'shiki.w@outlook.com'
 
-  [markup]
-    [markup.tableOfContents]
-      startLevel = 2
-      endLevel = 3
+# ── Language: English ──
+[languages.en]
+  locale = 'en'
+  title = 'BuGuLog'
+  weight = 20
+
+  [[languages.en.menus.main]]
+    identifier = 'home'
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[languages.en.menus.main]]
+    identifier = 'categories'
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 20
+
+  [[languages.en.menus.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
+  [[languages.en.menus.main]]
+    identifier = 'about'
+    name = 'About'
+    pageRef = '/about'
+    weight = 40
+
+  [[languages.en.menus.main]]
+    identifier = 'friends'
+    name = 'Friends'
+    pageRef = '/friends'
+    weight = 50
+
+  [languages.en.params]
+    footerText = 'BuGuLog · A light in the sea of mist'
+    copyright = 'GuGuDaDa'
+    themeName = 'BuGuTheme'
+    themeURL  = 'https://github.com/GuGuDaDaDa/BuGuTheme'
+    icp = ''
+    [languages.en.params.social]
+      github = 'https://github.com/GuGuDaDaDa'
+      twitter = ''
+      email = 'shiki.w@outlook.com'
