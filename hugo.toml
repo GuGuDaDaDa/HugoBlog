@@ -3,6 +3,7 @@ locale = 'zh-CN'
 title = 'BuGuLog'
 hasCJKLanguage = true
 theme = 'BuGuLogTheme'
+defaultContentLanguage = 'zh-cn'
 
 [markup]
   [markup.tableOfContents]
