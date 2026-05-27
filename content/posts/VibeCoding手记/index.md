@@ -21,7 +21,7 @@ draft = false
 ## 使用工具与模型
 
 + Claude Code
-+ DeepSeek V4 Pro <del>不用Claude不是因为我穷！</del>
++ DeepSeek V4 Pro ~~不用Claude不是因为我穷！~~
 
 *注：这次实践中Claude Code中没有使用任何SKILL。*
 
