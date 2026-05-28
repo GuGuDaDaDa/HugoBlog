@@ -49,10 +49,6 @@ defaultContentLanguage = 'zh-cn'
 
   [languages.'zh-cn'.params]
     googleAnalytics = "G-7F750CT9XH "
-    giscusRepo = "GuGuDaDaDa/HugoBlog"
-    giscusRepoId = "R_kgDOSl7-ew"
-    giscusCategory = "Announcements"
-    giscusCategoryId = "DIC_kwDOSl7-e84C9t4o"
     author = 'GuGuDaDa'
     footerText = 'BuGuLog · 海雾深处，字字为灯'
     copyright = 'GuGuDaDa'       # © 年份 + 此处文字；留空则用 title
