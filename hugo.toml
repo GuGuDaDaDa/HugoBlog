@@ -48,6 +48,23 @@ defaultContentLanguage = 'zh-cn'
     weight = 50
 
   [languages.'zh-cn'.params]
+    # Giscus 配置
+    enable = true
+    repo = 'GuGuDaDaDa/HugoBlog'
+    repoId = 'R_kgDOSl7-ew'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDOSl7-e84C9t4o'
+    mapping = 'pathname'
+    strict = '0'
+    reactionsEnabled = '1'
+    emitMetadata = '0'
+    inputPosition = 'bottom'
+    theme = 'auto'
+    lightTheme = 'light'
+    darkTheme = 'dark'
+    lang = 'zh-CN'
+    loading = 'lazy'
+    # googleAnalytics 设置
     googleAnalytics = "G-7F750CT9XH "
     author = 'GuGuDaDa'
     footerText = 'BuGuLog · 海雾深处，字字为灯'
@@ -97,6 +114,22 @@ defaultContentLanguage = 'zh-cn'
     weight = 50
 
   [languages.en.params]
+  # Giscus 配置
+    enable = true
+    repo = 'GuGuDaDaDa/HugoBlog'
+    repoId = 'R_kgDOSl7-ew'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDOSl7-e84C9t4o'
+    mapping = 'pathname'
+    strict = '0'
+    reactionsEnabled = '1'
+    emitMetadata = '0'
+    inputPosition = 'bottom'
+    theme = 'auto'
+    lightTheme = 'light'
+    darkTheme = 'dark'
+    lang = 'zh-CN'
+    loading = 'lazy'
     googleAnalytics = "G-7F750CT9XH "
     giscusRepo = "GuGuDaDaDa/HugoBlog"
     giscusRepoId = "R_kgDOSl7-ew"
