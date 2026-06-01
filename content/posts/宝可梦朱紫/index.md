@@ -20,6 +20,8 @@ cover = 'cover.jpg'
 
 draft = false
 
+comment = true
+
 +++
 
 ## 北上乡
